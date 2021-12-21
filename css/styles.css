@@ -11,9 +11,26 @@ h1{
     font-size: 3rem;
 }
 
-h3{
+h2{
     font-size: 2rem;
 }
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.3rem;
+}
+
+h5{
+    font-size: 1.15rem;
+}
+
+h6{
+    font-size: 1.05rem;
+}
+/**************************/
 
 /* clases predefinidas */
 * {
@@ -71,8 +88,5 @@ body{
     /* column-4 pasará de tener 25% a 50% */
     .column-4{
         width: 50%;
-    }
-    #caja-10{
-        width: 100%;
     }
 }
