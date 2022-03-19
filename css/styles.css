@@ -36,6 +36,7 @@ h6{
 * {
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
 }
@@ -77,10 +78,18 @@ body{
     float: left;
 }
 
+.column-75{
+    width: 75%;
+    float: left;
+}
+
 /* Otras clases */
 
 @media only screen and (max-width: 600px) {
-/*reglas*/
+    /* column-2 pasará de tener 50% a 100% */
+    .column-2{
+        width: 100%;
+    }
     /* column-3 pasará de tener 33.33% a 100% */
     .column-3{
         width: 100%;
