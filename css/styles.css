@@ -84,6 +84,12 @@ body{
 }
 
 /* Otras clases */
+/* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
